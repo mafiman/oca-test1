@@ -1,6 +1,7 @@
 /**
  * BMIRechner Konsoleneingabe
  * Alles geschieht in einer Klasse, statische Variablen und Zugriff ist private.
+ * Git online test.
  */
 package aufgabe1Tests;
 
