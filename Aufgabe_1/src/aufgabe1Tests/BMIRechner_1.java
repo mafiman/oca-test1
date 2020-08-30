@@ -47,13 +47,13 @@ public class BMIRechner_1 {
 					int iBmiEvaluate = bmiEvaluate(bmiValue, iAge);
 
 					if (iBmiEvaluate < 0) {
-						System.out.println("Bitte achte auf deine Ern�hrung, dein BMI Wert ist ");
-						System.out.println("f�r deine Altersgruppe zu niedrig.");
+						System.out.println("Bitte achte auf deine Ernährung, dein BMI Wert ist ");
+						System.out.println("für deine Altersgruppe zu niedrig.");
 					} else if (iBmiEvaluate == 0) {
-						System.out.println("Dein BMI Wert ist f�r deine Altersgruppe ideal.");
-						System.out.println("Du solltest trotzdem auf eine gesunde Ern�hrung achten.");
+						System.out.println("Dein BMI Wert ist für deine Altersgruppe ideal.");
+						System.out.println("Du solltest trotzdem auf eine gesunde Ernährung achten.");
 					} else if (iBmiEvaluate > 0) {
-						System.out.println("Bitte achte auf deine Ern�hrung, dein BMI Wert ist ");
+						System.out.println("Bitte achte auf deine Ernährung, dein BMI Wert ist ");
 						System.out.println("f�r deine Altersgruppe zu hoch.");
 					}
 
