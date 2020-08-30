@@ -1,7 +1,7 @@
 /**
  * BMIRechner Konsoleneingabe
  * Alles geschieht in einer Klasse, statische Variablen und Zugriff ist private.
- * Git online test.
+ * Git online test. 
  */
 package aufgabe1Tests;
 
@@ -54,7 +54,7 @@ public class BMIRechner_1 {
 						System.out.println("Du solltest trotzdem auf eine gesunde Ernährung achten.");
 					} else if (iBmiEvaluate > 0) {
 						System.out.println("Bitte achte auf deine Ernährung, dein BMI Wert ist ");
-						System.out.println("f�r deine Altersgruppe zu hoch.");
+						System.out.println("für deine Altersgruppe zu hoch.");
 					}
 
 				} // end bmiEvaluate
@@ -96,7 +96,7 @@ public class BMIRechner_1 {
 			iRetVal = -2;
 		}
 		if (iRetVal == 0) {
-			System.out.println("Bitte deine Gr�sse in Zentimetern als ganze Zahl angeben:");
+			System.out.println("Bitte deine Grösse in Zentimetern als ganze Zahl angeben:");
 			sInputString = sInput.nextLine();
 			try {
 				iHeigth = Integer.parseInt(sInputString);
